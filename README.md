@@ -9,11 +9,10 @@
 **Dependencies**
 - subprocess
 - smtplib
-- re
 - pynput.keyboard
 - threading
 
 
 Note: We need an email address where the program will send the log every 120 seconds
 
-*Would also recommend using a venv for importing/installing all the dependneices so they don't collide with the global ones*
+*For SMTP Configuration, use the port and host provided by the platform. For GMail it is `smtp.gmail.com`, port:587*
